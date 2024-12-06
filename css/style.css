@@ -1,0 +1,154 @@
+/*RESET CSS ELIMINA LOS ESTILOS POR DEFECTOS DE LOS NAVEGADORES*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-image: url(/images/fondo2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    font-family: "Satisfy", serif;
+    border: none;
+    margin: 10px;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+/*barra de navegacion*/
+.navbar {
+    padding: 2rem;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+/*seccion principal*/
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Satisfy", serif;
+}
+.parrafo-principal {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 5px;
+    align-items: center;
+    color: darkslategray;
+}
+.seccion-principal {
+    min-height: 450px;
+    text-align: center;
+}
+.video-principal {
+    padding: 2rem;
+    align-items: center;
+}
+@media screen and (min-width: 700px) {
+    .video-principal {
+        max-width: 800px;
+        align-items: center;
+    }
+}
+/*seccion secundaria*/
+.nosotros {
+    height: 200;
+    padding: 10px;
+    background-color: burlywood;
+    color: darkslategray;
+    min-width: 200;
+    text-align: center;
+    margin: 5px;
+}
+.titulo-nosotros {
+    font-family: "Satisfy", serif;
+    font-size: medium;
+    text-align: start;
+    margin: 10px;
+    padding: 15px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.parrafo-secundario {
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    margin: 10px;
+}
+/*seccion categoria*/
+.categorias{
+    padding: 40px 40px 60px 40px;
+}
+.clara-categorias{
+    color: #000;
+    background-color: antiquewhite;
+}
+.categorias-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.categorias i {
+    font-size: 2.5rex;
+    color: #ee09b5;
+    background-color: black;
+    padding: 8px 19px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px 0;
+}
+.imagenes-categorias {
+    padding: 10px;
+}
+.color-icons {
+    color: #d40655;
+}
+a {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-link :hover {
+    color: darkmagenta;
+}
+/*productos*/
+.productos {
+    padding: 40px 20px 40px 20px;
+}
+.productos .carousel {
+    max-width: 800px;
+}
+.carousel-item {
+    height: 100%;
+}
+h2 .titulo-productos {
+    font-weight: bold;
+    margin: 10px 0;
+    justify-items: left;
+}
+.formulario {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
