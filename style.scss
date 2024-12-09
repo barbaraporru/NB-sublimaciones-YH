@@ -1,0 +1,28 @@
+@import "variables";
+
+body {
+    background-image: $imagen-fondo;
+    color: $primary-color;
+    font-family: $primary-fonts;
+}
+footer {
+    background-color: $color-fondo;
+    ul {
+        font-family: $secondary-fonts;
+        li { 
+            text-decoration: underline;
+        }
+    }
+}
+/*mixin*/
+@mixin flex-center () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: end
+}
+footer {
+    @include flex-center;
+}
+
+    

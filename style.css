@@ -1,0 +1,26 @@
+/*variables*/
+body {
+  background-image: url(/images/fondo2.jpeg);
+  color: #222;
+  font-family: "Satisfy", serif;
+}
+
+footer {
+  background-color: #fff;
+}
+footer ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer ul li {
+  text-decoration: underline;
+}
+
+/*mixin*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: end;
+}
+
+/*# sourceMappingURL=style.css.map */
