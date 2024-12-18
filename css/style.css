@@ -86,6 +86,7 @@ h1 {
 footer {
     text-align: center;
     margin: 10px;
+    flex-shrink: 0;
 }
 /*seccion categoria*/
 .categorias{
