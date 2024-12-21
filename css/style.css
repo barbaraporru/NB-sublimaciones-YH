@@ -56,8 +56,8 @@ h1 {
 }
 @media screen and (min-width: 700px) {
     .video-principal {
-        max-width: 800px;
         align-items: center;
+        min-width: 200;
     }
 }
 /*seccion secundaria*/
@@ -66,7 +66,7 @@ h1 {
     padding: 10px;
     background-color: burlywood;
     color: darkslategray;
-    min-width: 200;
+    
     text-align: center;
     margin: 5px;
 }
