@@ -127,17 +127,12 @@ a {
 .productos {
     padding: 40px 20px 40px 20px;
 }
-@media screen and (min-width: 700px) {
-    .productos {
-        align-items: center;
-        min-width: 200;
-    }
-     }
 .productos .carousel {
     max-width: 800px;
 }
 .carousel-item {
-    height: 100%;
+    width: 100%; 
+    height: auto; 
 }
 
 h2 .titulo-productos {
@@ -150,22 +145,22 @@ h2 .titulo-productos {
 }
 @keyframes animar-titulo {
     0% {
-        color: #ff6347; /* Rojo tomate */
+        color: #ff6347; 
     }
     20% {
-        color: #32cd32; /* Verde lima */
+        color: #32cd32; 
     }
     40% {
-        color: #1e90ff; /* Azul */
+        color: #1e90ff; 
     }
     60% {
-        color: #ff1493; /* Rosa fuerte */
+        color: #ff1493; 
     }
     80% {
-        color: #ffda00; /* Amarillo */
+        color: #ffda00; 
     }
     100% {
-        color: #ff6347; /* Rojo tomate de nuevo */
+        color: #ff6347; 
     }
 }  
 h1.animado {
