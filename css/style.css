@@ -4,14 +4,13 @@
     padding: 0;
     box-sizing: 0;
 }
-
 body {
     background-image: url(/images/fondo2.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     color: #000;
-    
+    font-family: "Satisfy", serif;
     border: none;
     margin: 10px;
     min-height: 100vh;
@@ -33,7 +32,6 @@ section {
     align-items: center;
     justify-content: center;
 }
-
 h1 {
     font-size: xx-large;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -129,12 +127,19 @@ a {
 .productos {
     padding: 40px 20px 40px 20px;
 }
+@media screen and (min-width: 700px) {
+    .productos {
+        align-items: center;
+        min-width: 200;
+    }
+     }
 .productos .carousel {
     max-width: 800px;
 }
 .carousel-item {
     height: 100%;
 }
+
 h2 .titulo-productos {
     font-weight: bold;
     margin: 10px 0;
@@ -143,58 +148,28 @@ h2 .titulo-productos {
 .formulario {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/*
 @keyframes animar-titulo {
     0% {
-        transform: scale(1);
-        color: #000;
+        color: #ff6347; /* Rojo tomate */
     }
-    50% {
-        transform: scale(1.2);
-        color: #ff6347; 
+    20% {
+        color: #32cd32; /* Verde lima */
+    }
+    40% {
+        color: #1e90ff; /* Azul */
+    }
+    60% {
+        color: #ff1493; /* Rosa fuerte */
+    }
+    80% {
+        color: #ffda00; /* Amarillo */
     }
     100% {
-        transform: scale(1);
-        color: #000;
-    }  
-  }
-    */
-
-@keyframes animar-titulo {
-        0% {
-            color: #ff6347; /* Rojo tomate */
-        }
-        20% {
-            color: #32cd32; /* Verde lima */
-        }
-        40% {
-            color: #1e90ff; /* Azul */
-        }
-        60% {
-            color: #ff1493; /* Rosa fuerte */
-        }
-        80% {
-            color: #ffda00; /* Amarillo */
-        }
-        100% {
-            color: #ff6347; /* Rojo tomate de nuevo */
-        }
+        color: #ff6347; /* Rojo tomate de nuevo */
     }
-    
+}  
 h1.animado {
     animation: animar-titulo 3s infinite;
     font-family: "Satisfy", serif;
     text-align: center;
 }
-  
-  
-
-
-
-
-
-
-
-
-
-
